@@ -5,6 +5,11 @@ This is an official repository of
 *Anurag Ranjan, Joel Janai, Andreas Geiger, Michael J. Black*. **Attacking Optical Flow.** ICCV 2019.
 
 [[Project Page](http://flowattack.is.tue.mpg.de/)] [[Arxiv](arxiv.org)]
+
+### Known Issues
+- To obtain the batch, use the learning rate of `1e3` and `1e4`. For each learning rate, run at least five different trials for 30 epochs.
+- The best patch for FlowNetC was obtained with LR of `1e3` and for FlowNet2 was obtained with LR of `1e4`. 
+
 ## Prerequisites
 Python3 and pytorch are required. Third party libraries can be installed (in a `python3 ` virtualenv) using:
 
