@@ -51,7 +51,7 @@ parser.add_argument('--epochs', default=40, type=int, metavar='N',
                     help='number of total epochs to run')
 parser.add_argument('--max-count', default=2, type=int,
                     help='max count')
-parser.add_argument('--epoch-size', default=30, type=int, metavar='N',
+parser.add_argument('--epoch-size', default=100, type=int, metavar='N',
                     help='manual epoch size (will match dataset size if not set)')
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum for sgd, alpha parameter for adam')
